@@ -1,0 +1,34 @@
+/* Styles for the second nav bar */
+
+.navbar2-container a:hover {
+  background: blue;
+}
+
+.navbar2 a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar2 i {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar2-container {
+    padding: 0.4rem 0.7rem;
+  }
+
+  .navbar2-container a {
+    padding: 0.7rem; 
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar2-container a {
+   font-size: 0.6rem;
+   /* display: none; */
+  
+}
+}

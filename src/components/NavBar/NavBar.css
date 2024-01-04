@@ -1,0 +1,40 @@
+.navbar-container {
+  display: flex;
+  background: rgba(0,0,0,0.3);
+  width: max-content;
+  padding: 0.5rem 1.7rem;
+  position: fixed;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0rem;
+  gap: 2rem;
+  border-radius: 0.5rem;
+  backdrop-filter: blur(15px);
+}
+
+.navbar-container a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 10%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.5rem;
+}
+
+.navbar-container a:hover {
+  background: rgb(69, 69, 240);
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    padding: 0.4rem 0.7rem;
+  }
+
+  .navbar-container a {
+    padding: 0.7rem; 
+    font-size: 0.9rem;
+  }
+}
+

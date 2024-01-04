@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio-huipan",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,8 +11,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "devicon": "^2.15.1",
+    "emailjs": "^4.0.3",
+    "emailjs-com": "^3.2.0",
+    "install": "^0.13.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-pdf": "^7.6.0",
+    "react-simple-typewriter": "^5.0.1",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "sweetalert2": "^11.7.32"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
@@ -22,6 +34,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "netlify-cli": "^16.5.1",
     "vite": "^5.0.8"
   }
 }

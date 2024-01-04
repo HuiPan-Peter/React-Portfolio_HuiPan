@@ -1,68 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+p {
+  font-size: larger;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --color-bg: #1f1f38;
+  --color-bg-project-card: #17176e;
+  --color-primary: #096bff;
+  --color-primary-projects: rgba(30, 157, 248, 0.4);
+  --color-text: #ffffff;
+  --color-light: rgba(255, 255, 255, 0.6);
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: "poppins", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.7;
+  background-image: url(./assets/Space.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+h1 {
+  font-size: 2.5rem;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+section {
+  margin-top: 5rem;
+  /* height: 100vh; */
+}
+section > h2,
+section > h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover{
+   color: var(--color-text);
+}
+
+
+.btn-primary{
+   background: var(--color-primary);
+   color: var(--color-bg);
+}
+
+img{
+   display: block;
+   width: 100%;
+   object-fit: cover;
+}
+.download {
+  font-size: 3rem;
+}
+.carli-rez {
+  justify-content: center;
+}
+.ch-res {
+  size: 100%;
+}
+
+
+/* set for laptop or Tablet */
+@media screen and (max-width: 1024px){
+   .container {
+     width: var(--container-width-md);
+   }
+ 
+   section {
+     margin-top: 10rem;
+   }
+ }
+ 
+ /* set for Mobile*/
+ @media screen and (max-width: 600px){
+   .container {
+     width: var(--container-width-sm);
+   }
+ 
+   section > h2 {
+     margin-bottom: 2rem;
+   }
+ }
+
+
+ @media (max-width: 768px) {
+  #experience {
+    margin-top: 100px;
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+
+  #about {
+    margin-bottom: 100px;
   }
 }
