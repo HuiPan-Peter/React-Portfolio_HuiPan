@@ -14,9 +14,6 @@ const TEMPLATE_ID = "template_ub3n2dw";
 const USER_ID = "yoUzBk9YUpe6gk0d9";
 const SERVICE_ID = "service_543sh2p";
 
-// !!!!!Refer to this !!!!!!!!!!!!
-//https://plainenglish.io/blog/how-to-build-a-contact-form-in-react-that-sends-emails-using-emailjs-70011d2563a3
-
 export default function Contact() {
   //Define states
   const [email, setEmail] = useState("");
@@ -116,7 +113,7 @@ export default function Contact() {
   //Form here to handle name and message using emailjs
   return (
     <section id="contact">
-    <div>
+    <div className="contact-text">
       <div className="title-boarder rounded-circle">
         <h1>Contact Me</h1>
       </div>
@@ -157,10 +154,9 @@ export default function Contact() {
 
           <TextArea
             id="form-textarea-control-opinion "
-            rows="5"
+            rows="8"
             value={message}
             onBlur={checkName}
-            // control={Input}
             name="message"
             label="Message"
             onChange={handleInputChange}
@@ -178,29 +174,32 @@ export default function Contact() {
           </div>
         )}
       </div>
+      <div className="contact-details">
+          {/* All links open in a new tab */}
+          {/* <a href="tel:+9999999999" className="contact-button">
+            <i className="fas fa-phone"></i> Phone
+          </a> */}
+          <a
+            href="https://www.linkedin.com/in/peter-pan-3bb0432a9/"
+            className="contact-button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-linkedin"></i> LinkedIn
+          </a>{" "}
+          <a href="mailto:guaranstone@gmail.com" className="contact-button">
+            <i className="fas fa-envelope"></i> Email
+          </a>
+          <a
+            href="https://github.com/HuiPan-Peter"
+            className="contact-button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-github"></i> GitHub
+          </a>
+        </div>
     </div>
     </section>
   );
 }
-
-// const Contact = () => {
-//   return (
-//     <section id='contact'>
-//       <h1>Contact</h1>
-//       <div className="contact-container">
-//         <div className="text-box">
-//           <div className="contact-text">
-//             <p> Need to complain to the team? <br /> Feel free to contact us here</p>
-//           </div>
-//         </div>
-//         <div className="contact-details">
-//           {/* All links open in a new tab */}
-//           <a href="tel:+9999999999" className="contact-button"><i className="fas fa-phone"></i> Phone</a>
-//           <a href="https://makeredundant.github.io/Brian-Website/" className="contact-button" target="_blank" rel="noreferrer"><i className="fas fa-globe"></i> Website</a>
-//           <a href="mailto:Brian.trang@hotmail.com" className="contact-button"><i className="fas fa-envelope"></i> Email</a>
-//           <a href="https://github.com/MakeRedundant" className="contact-button" target="_blank" rel="noreferrer"><i className="fab fa-github"></i> GitHub</a>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };

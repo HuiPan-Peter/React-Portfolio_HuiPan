@@ -19,9 +19,10 @@ const Header = () => {
 
   return (
     <header id="header" className="header">
+      <h1>Welcome To My Portfolio</h1>
       <div className="header-container">
         <div className="Header-section">
-          <h1>WELCOME TO MY PORTFOLIO</h1>
+          
           <div className="header-text">
             <h2 id="hello" onClick={changeLanguage}>
               👋 Hello My Friend!
@@ -32,7 +33,7 @@ const Header = () => {
             </p>
             <p>I like Swim 🏊🏻 and Diving 🤿</p>
             <p>
-              and I also like Coding with <TypewriterComponent />
+              and I also enjoy Coding with : <br /> <TypewriterComponent />
             </p>
           </div>
         </div>

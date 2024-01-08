@@ -3,11 +3,24 @@
   padding-top: 5rem;
 }
 
-.contact-container {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 3%;
-  position: relative;
+.section__wrapper {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 16px;
+  color: lightgreen;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 92%;
+  min-width: 308px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  justify-items: center;
+  font-weight: 500;
+  padding: 0 0 1rem 0;
 }
 
 .contact-text {
@@ -72,7 +85,76 @@ Form {
   font-size: 20px;
 }
 .ui.form {
-  font-size:1.2rem;
+  font-size:1.5rem;
+}
+.pulse-link {
+  display: inline-block;
+  font-size: 18px;
+  animation: pulse 10s infinite; /* Use the 'pulse' animation for 10 seconds, repeat infinitely */
+}
+.skills {
+  align-items: center;
+  transform: translateX(auto);
+  padding: 10px;
+  width: 100%;
 }
 
-/* !!!!!!!Contact Section End !!!!!*/
+.scrolling-text {
+  display: inline-block;
+  white-space: nowrap;
+  color: rgb(0, 212, 46);
+  text-shadow: 10px 10px 10px rgb(72, 255, 0) !important;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  animation: slide-in 3s infinite;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Resume.css */
+.job-duties, h5 {
+  color: lightblue; /* Change this to the desired text color */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(115, 215, 255);
+  font-size: 19px;
+  text-shadow: 5px 6px 7px rgb(62, 226, 255);
+}
+a:hover {
+  /* color: var(--light); */
+  
+  color: rgb(0, 212, 46);
+  text-shadow: 10px 10px 10px rgb(72, 255, 0) !important;
+}
+
+.pulse-link {
+  display: inline-block;
+  font-size: 18px;
+  animation: pulse 10s infinite; /* Use the 'pulse' animation for 10 seconds, repeat infinitely */
+}
+.resume-content{
+  font-size: 17px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Original size */
+  }
+  50% {
+    transform: scale(1.05); /* Slightly larger size */
+  }
+  100% {
+    transform: scale(1); /* Back to original size */
+  }
+}
