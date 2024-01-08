@@ -52,7 +52,7 @@ const projectData = [
     github: "https://github.com/AzukiCoconut/ProjectBagEnd",
     category: "Server-Side APIs",
     Live: "https://azukicoconut.github.io/ProjectBagEnd/",
-    Source: "https://github.com/MakeRedundant/Marvel-Character-Browser",
+    Source: "https://github.com/AzukiCoconut/ProjectBagEnd",
     description:
       "Weather Comparison is a web application that allows any user to find the current weather of two cities in the world and compare it.",
     tags: ["JQuery", "Tailwind", "Openweather API", "Google API", "Proxies"],
@@ -123,7 +123,7 @@ const Projects = () => {
   return (
     <section id="project" className="project"> 
       <h1>Projects</h1>
-      <p>Check out my stuff here!</p>
+      <p>Check out my work here!</p>
       <div className="container project-container">
         {projectData.map(
           ({ id, image, title, category, description, tags, Live, Source }) => {

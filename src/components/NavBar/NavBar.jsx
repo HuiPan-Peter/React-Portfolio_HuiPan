@@ -1,4 +1,5 @@
 import "./NavBar.css";
+import resumepdf from '../../assets/pdf/RESUME_Mr.HuiPan-ReactP.pdf';
 
 export const Navbar = () => {
   const handleClick = (e, sectionId) => {
@@ -33,7 +34,7 @@ export const Navbar = () => {
         <a href="/#contact" onClick={(e) => handleClick(e, "#contact")} aria-label="Contact section">
           <i className="far fa fa-edit"> Contact </i>
         </a>
-        <a href="/#contact" onClick={(e) => handleClick(e, "#contact")} aria-label="Contact section">
+        <a href="/#resume" onClick={(e) => handleClick(e, "#resume")} aria-label="Resume section">
           <i className="far fa fa-file"> Resume </i>
         </a>
       </nav>

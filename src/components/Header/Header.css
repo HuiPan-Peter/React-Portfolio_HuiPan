@@ -5,6 +5,7 @@
 }
 
 .header-container {
+  margin-top: 5rem;
   display: grid;
   position: relative;
   height: 100%;
@@ -13,7 +14,7 @@
 }
 .header {
   height: 100%;
-  padding-top: 20%;
+  padding-top: 10%;
 }
 .header-image {
   width: 100%;
@@ -25,12 +26,13 @@
 
 .header-text {
   font-size: larger;
-  height: 75%;
+  height: 93%;
   max-width: 100%;
   overflow: hidden; /* Hide overflowing content */
-  padding: 1rem;
+  padding: 4rem;
   border-radius: 15px;
   box-shadow: 10px 20px 40px rgba(169, 60, 209, 0.5);
+  background-color: rgb(48, 29, 65);
 }
 
 

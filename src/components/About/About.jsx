@@ -1,5 +1,6 @@
 import "./About.css";
 import { TypewriterComponent } from "../utils/Typewriter/Typewriter";
+import resumepdf from '../../assets/pdf/RESUME_Mr.HuiPan-ReactP.pdf';
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
               <span className="btn btn__yellow"></span>
               <span className="btn btn__green"></span>
             </div>
-            <p className="user">huipan@peter: About ~</p>
+            <p className="user">huipan@peter: About Me</p>
           </div>
           <div className="terminal__content" id="text">
             <h3 className="terminal__content">
@@ -21,8 +22,8 @@ const About = () => {
             </h3>
             <div className="about-text">
               <p className="terminal__content">
-                I am a Computer Network and Web Technician 👨🏻‍💻 with over two years of experience working in Canada. <br/>
-                Having graduated in Computer Sciences from the UK, I bring a diverse skill set that encompasses proficient programming in databases and web technologies.<br/>
+                I am a Computer Network and Web Technician 👨🏻‍💻 with over two years of experience working in Canada. 
+                Having graduated in Computer Sciences from the UK, I bring a diverse skill set that encompasses proficient programming in databases and web technologies.
                 During my tenure at the IT ministry of SINOPEC, spanning more than 10 years, I amassed invaluable experience. Notably, leading teams and independently spearheading over 40 nationwide projects.<br/><br/>
                 Now as a dedicated front-end developer passionate about IT technology, I'm fullly equippted with these full-stack development skills: <TypewriterComponent/>.
               </p>
@@ -39,7 +40,7 @@ const About = () => {
             <div className="card-socials">
               <a
                 className="card-socials-btn download-resume"
-                href="https://drive.google.com/drive/folders/178aJT71OVJzvM4JJm0IqHat_YxyOVq7O?usp=drive_link"
+                href={resumepdf} download
                 target="_blank"
                 rel="nofollow noreferrer noopener"
                 data-tooltip="Download Resume"
@@ -58,7 +59,7 @@ const About = () => {
               </a>
               <a
                 className="card-socials-btn icon"
-                href="https://www.linkedin.com/?trk=guest_homepage-basic_nav-header-logo"
+                href="https://www.linkedin.com/in/peter-pan-3bb0432a9"
                 target="_blank"
                 rel="nofollow noreferrer noopener"
                 data-tooltip="LinkedIn"
