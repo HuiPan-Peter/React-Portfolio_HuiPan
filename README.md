@@ -41,7 +41,7 @@
   On the footer, my social media contact also listed, as well as logos for Github, Linkedin, and Twitter. Click on the logo of a social network, and another tab with my profile from that network will open. 
 
   ## Link
-  You can visit my porfolio at https://
+  You can visit my portfolio at **Live Netlify Deployment** here: [Click!](https://exquisite-dodol-20c623.netlify.app/)
 
   ## Technologies-Used
     <p><a href="https://vitejs.dev/">Vite</a></p>
