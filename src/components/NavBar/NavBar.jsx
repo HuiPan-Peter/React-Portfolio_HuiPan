@@ -1,5 +1,4 @@
 import "./NavBar.css";
-import resumepdf from '../../assets/pdf/RESUME_Mr.HuiPan-ReactP.pdf';
 
 export const Navbar = () => {
   const handleClick = (e, sectionId) => {

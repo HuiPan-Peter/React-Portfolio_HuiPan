@@ -25,15 +25,14 @@ const Header = () => {
           
           <div className="header-text">
             <h2 id="hello" onClick={changeLanguage}>
-              👋 Hello My Friend!
+              👋 Hello My Friends!
             </h2>
             <p>
-              My name is Peter, and I&apos;m a software engineer <br />
-              based in New Brunswick, Canada.
+              My name is Peter, live and work in Fredericton , Canada. <br /><br /> I&apos;m a dedicated professional with a background in computer science and a passion for programming and IT. <br />
             </p>
-            <p>I like Swim 🏊🏻 and Diving 🤿</p>
+            <p>I like Swim 🏊🏻, Diving 🤿</p>
             <p>
-              and I also enjoy Coding with : <br /> <TypewriterComponent />
+              and enjoy Coding with : <br /> <TypewriterComponent />
             </p>
           </div>
         </div>
