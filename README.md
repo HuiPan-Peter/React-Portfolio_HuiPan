@@ -12,6 +12,12 @@
   - [License](#license)
   
   ## Usage
+  - Download or clone the repository to use this application on your local machine.
+  - To install the necessary dependencies, navigate to the root directory and run the following command: `npm install`.
+  After installation :
+  - run the command `npm run build` which will run the Vite build process which will bundle the React source code.
+  - run the command `npm start` which will execute the vite, start the development server provided by Vite, and allow users to run the code on their local host.
+    
   When you go to the site, you will first landing on my "Home" page. At the top, you can navigate to "About", "Portfolio", "Contact", or "Resume" pages. 
 
   ![alt text](./src/assets/Home.png)
