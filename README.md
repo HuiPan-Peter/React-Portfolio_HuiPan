@@ -3,7 +3,7 @@
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit//)
         
   ## Description
-     The project is a single-page application developed with React. This platform serves as a consolidated showcase of my various projects, demonstrating my proficiencies. Through a user-friendly interface, visitors can explore a diverse collection of applications, gaining insights into my capabilities and works.
+     The project is a single-page application developed with React. This platform serves as a consolidated showcase of my various projects, demonstrating my proficiencies. Through a user-friendly interface, visitors can explore a diverse collection of my applications, gaining insights into my capabilities and works.
   
   ## Table of Contents
   - [Usage](#usage)
@@ -12,7 +12,7 @@
   - [License](#license)
   
   ## Usage
-  When you go to the site, you will first landing to my "Home" page. At the top, you can navigate to "About", "Portfolio", "Contact", or "Resume" pages. 
+  When you go to the site, you will first landing on my "Home" page. At the top, you can navigate to "About", "Portfolio", "Contact", or "Resume" pages. 
 
   ![alt text](./src/assets/Home.png)
 
@@ -28,7 +28,7 @@
 
   ![alt text](./src/assets/Contact.png)
 
-  On my "Resume" page, there are two sections of brief summary about my education and work history. when you click each job title, started with 🔷, a more detailed description will show off. By the end of the page, you can also download a PDF form of my resume.
+  On my "Resume" page, there are two sections of brief summary about my education and work history. when you click each job title, started with 🔷, a more detailed description of duties will show off. By the end of the page, you can also download a PDF form of my resume.
 
   ![alt text](./src/assets/Resume.png)
 

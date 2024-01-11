@@ -31,8 +31,3 @@ export function changeLanguage() {
   flag-icon-${language.flag}"></span> ${language.text}`;
   index = (index + 1) % languages.length;
 }
-
-// Export the changeLanguage function
-// export { changeLanguage };
-
-//Turn to jsx
